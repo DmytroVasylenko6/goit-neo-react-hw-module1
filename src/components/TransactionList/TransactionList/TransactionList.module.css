@@ -1,7 +1,6 @@
 .transactionHistory {
   width: 780px;
   margin: 0 auto;
-  margin-top: 100px;
 }
 
 .item:nth-child(odd) {
