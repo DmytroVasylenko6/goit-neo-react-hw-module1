@@ -1,7 +1,7 @@
-import Profile from './Profile/Profile'
-import FriendList from './FriendList/FriendList/FriendList'
-import TransactionHistory from './TransactionList/TransactionList/TransactionList'
-import Section from './Section/Section'
+import Profile from './Profile'
+import FriendList from './FriendList'
+import TransactionHistory from './TransactionList'
+import Section from './Section'
 
 import user from '../db/user.json'
 import friends from '../db/friends.json'

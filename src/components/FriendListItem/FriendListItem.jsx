@@ -5,7 +5,9 @@ import s from './FriendListItem.module.css'
 export default function FriendListItem({ isOnline, name, avatar }) {
   return (
     <React.Fragment>
-      <span className={isOnline ? s.green : s.red}>{isOnline}</span>
+      <span className={isOnline ? s.green : s.red}>
+        {isOnline ? 'online' : 'offline'}
+      </span>
       <img className={s.avatar} src={avatar} alt={name} width="48" />
       <p className={s.name}>{name}</p>
     </React.Fragment>

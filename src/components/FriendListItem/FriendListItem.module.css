@@ -17,17 +17,9 @@
 }
 
 .red {
-  width: 20px;
-  height: 20px;
-  display: block;
-  border-radius: 50%;
-  background-color: #f80000;
+  color: #f80000;
 }
 
 .green {
-  width: 20px;
-  height: 20px;
-  display: block;
-  border-radius: 50%;
-  background-color: #00f800;
+  color: #00f800;
 }
